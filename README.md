@@ -13,23 +13,31 @@ See the stm32f1xx [Quickstart Guide](https://github.com/stm32-rs/stm32f1xx-hal) 
 ### Running the examples
 
 Testing the LEDs:
-`cargo build --release --bin led-test`
-`cargo flash --release --bin led-test --chip STM32F103C8`
+```
+cargo build --release --bin led-test
+cargo flash --release --bin led-test --chip STM32F103C8
+```
 
 I²C LED Bar:
-`cargo build --release --bin i2c-leds`
-`cargo flash --release --bin i2c-leds --chip STM32F103C8`
-`cargo embed --release --bin led-test --chip STM32F103C8`
+```
+cargo build --release --bin i2c-leds
+cargo flash --release --bin i2c-leds --chip STM32F103C8
+cargo embed --release --bin led-test --chip STM32F103C8
+```
 
 7-Segment 4-Digit I²C Display:
-`cargo build --release --bin i2c-7-segment`
-`cargo flash --release --bin i2c-7-segment --chip STM32F103C8`
-`cargo embed --release --bin i2c-7-segment --chip STM32F103C8`
+```
+cargo build --release --bin i2c-7-segment
+cargo flash --release --bin i2c-7-segment --chip STM32F103C8
+cargo embed --release --bin i2c-7-segment --chip STM32F103C8
+```
 
 4 Digit Vacuum Fluorescent Display over I²C:
-`cargo build --release --bin i2c-vfd`
-`cargo flash --release --bin i2c-vfd --chip STM32F103C8`
-`cargo embed --release --bin i2c-vfd --chip STM32F103C8`
+```
+cargo build --release --bin i2c-vfd`
+cargo flash --release --bin i2c-vfd --chip STM32F103C8
+cargo embed --release --bin i2c-vfd --chip STM32F103C8
+```
 
 
 ### License
