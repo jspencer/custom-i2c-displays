@@ -1,5 +1,7 @@
 # Custom I²C Displays
 
+![LED Bar Matrix Display VFD Display](3-custom-i2c-displays.jpeg)
+
 Here are three examples of custom I²C displays written in Rust for the STM32F103 Microcontroller. These are commonly found on "Blue-Pill" development boards.
 
 ### Requirements 
@@ -8,7 +10,7 @@ Here are three examples of custom I²C displays written in Rust for the STM32F10
 - [cargo embed and cargo flash](https://probe.rs/guide/1_tools/)
 - Target support `rustup target install thumbv7m-none-eabi`
 
-See the stm32f1xx [Quickstart Guide](https://github.com/stm32-rs/stm32f1xx-hal) for more details on the dev environment and flashing.
+See the [stm32f1xx Quickstart Guide](https://github.com/stm32-rs/stm32f1xx-hal) for more details on the dev environment and flashing.
 
 ### Running the examples
 
