@@ -4,6 +4,8 @@
 
 Here are three examples of custom I²C displays written in Rust for the STM32F103 Microcontroller. These are commonly found on "Blue-Pill" development boards.
 
+There is an [accompanying blog post](https://jspencer.github.io/rust/2021/05/01/making-custom-i2c-displays.html) walking through the details.
+
 ### Requirements 
 
 - [Rust](https://rustup.rs/)
