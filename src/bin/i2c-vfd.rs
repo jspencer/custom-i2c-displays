@@ -14,7 +14,7 @@ use stm32f1xx_hal::{
 };
 use switch_hal::{ActiveLow, IntoSwitch, OutputSwitch, Switch};
 
-const OUR_I2C_ADDRESS: u8 = 0x33;
+const OUR_I2C_ADDRESS: u8 = 0x35;
 const MESSAGE_LENGTH: usize = 4;
 
 pub struct Display {
@@ -28,7 +28,7 @@ const APP: () = {
         i2c: I2C1,
         display: Display,
         refresh_timer: CountDownTimer<TIM1>,
-        #[init([0x06, 0x5B, 0x4F, 0x66])]
+        #[init([0,0,0,0])]
         display_buffer: [u8; MESSAGE_LENGTH],
     }
 
